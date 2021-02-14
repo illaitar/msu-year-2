@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @illaitar. I am currently a student in computer science. Have fun)
+- 👀 I’m interested in pretty much everything related to programming
+- 🌱 I’m currently learning c++
+- 📫 How to reach me: https://vk.com/alutis
