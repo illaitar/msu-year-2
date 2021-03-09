@@ -1,0 +1,45 @@
+[
+  {
+    "source": "video/dop1.mp4",
+    "scene_change": "gt/dop1.json",
+    "len": 2441
+  },
+
+  {
+    "source": "video/dop2.mp4",
+    "scene_change": "gt/dop2.json",
+    "len": 2929
+  },
+  {
+    "source": "video/dop3.mp4",
+    "scene_change": "gt/dop3.json",
+    "len": 2112
+  },
+
+  {
+    "source": "video/dop4.mp4",
+    "scene_change": "gt/dop4.json",
+    "len": 1485
+  },
+
+
+  {
+    "source": "video/dop5.mp4",
+    "scene_change": "gt/dop5.json",
+    "len": 299
+  },
+
+
+  {
+    "source": "video/dop6.mp4",
+    "scene_change": "gt/dop6.json",
+    "len": 2340
+  },
+
+  {
+    "source": "video/dop7.mp4",
+    "scene_change": "gt/dop7.json",
+    "len": 586
+  }
+
+]

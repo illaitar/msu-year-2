@@ -1,0 +1,97 @@
+[
+  {
+    "source": "video/03.mp4",
+    "scene_change": "gt/03.json",
+    "len": 3250
+  },
+  {
+    "source": "video/04.mp4",
+    "scene_change": "gt/04.json",
+    "len": 3392
+  },
+  {
+    "source": "video/05.mp4",
+    "scene_change": "gt/05.json",
+    "len": 5662
+  },
+  {
+    "source": "video/07.mp4",
+    "scene_change": "gt/07.json",
+    "len": 3321
+  },
+  {
+    "source": "video/08.mp4",
+    "scene_change": "gt/08.json",
+    "len": 3396
+  },
+  {
+    "source": "video/10.mp4",
+    "scene_change": "gt/10.json",
+    "len": 6096
+  },
+  {
+    "source": "video/14.mp4",
+    "scene_change": "gt/14.json",
+    "len": 2326
+  },
+  {
+    "source": "video/17.mp4",
+    "scene_change": "gt/17.json",
+    "len": 2904
+  },
+  {
+    "source": "video/21.mp4",
+    "scene_change": "gt/21.json",
+    "len": 4898
+  },
+  {
+    "source": "video/22.mp4",
+    "scene_change": "gt/22.json",
+    "len": 7749
+  },
+
+
+
+  {
+    "source": "video/dop1.mp4",
+    "scene_change": "gt/dop1.json",
+    "len": 2441
+  },
+
+  {
+    "source": "video/dop2.mp4",
+    "scene_change": "gt/dop2.json",
+    "len": 2929
+  },
+  {
+    "source": "video/dop3.mp4",
+    "scene_change": "gt/dop3.json",
+    "len": 2112
+  },
+
+  {
+    "source": "video/dop4.mp4",
+    "scene_change": "gt/dop4.json",
+    "len": 1485
+  },
+
+
+  {
+    "source": "video/dop5.mp4",
+    "scene_change": "gt/dop5.json",
+    "len": 299
+  },
+
+
+  {
+    "source": "video/dop6.mp4",
+    "scene_change": "gt/dop6.json",
+    "len": 2340
+  }
+  {
+  "source": "video/dop8.mp4",
+  "scene_change": "gt/dop8.json",
+  "len": 2816
+  }
+
+]
