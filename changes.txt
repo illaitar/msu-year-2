@@ -1,0 +1,20 @@
+                                                                           Алутис Никита группа 207
+
+/--------------------------------------------------------------------------------------------------\
+|                                                                                                  |
+|                                       Ревью                                                      |
+|                                                                                                  |
+\--------------------------------------------------------------------------------------------------/
+
+ Что было изменено после ревью:
+● Убрана отладочная опция make
+● Добавлен специальный тест в файл make.cpp и исправлена связанная с ним ошибка
+● Кодстайл пересмотрен
+● Убраны семантически неверные конструкции с оператором "-"
+● Переработан тест номер 8
+● Конструкторы копирования промежуточных классов закрыты для пользователя
+
+
+
+
+ffmpeg -i /Users/nik/Desktop/SCD/my_video/vid8.mp4 -vf "drawtext=fontfile=/Users/nik/Desktop/unity\ projects/shooter\ test/Assets/Opsive/UltimateCharacterController/Demo/Textures/Scene/Arial.ttf: text='%{frame_num}': start_number=0: x=(w-tw)/2: y=h-(2*lh): fontcolor=black: fontsize=200: box=1: boxcolor=white: boxborderw=5" -c:a copy /Users/nik/Desktop/SCD/my_video/vid8_out.mp4
