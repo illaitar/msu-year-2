@@ -8,18 +8,22 @@ Table.o:
 	gcc -c Table.c
 
 TableWrapper.o:
-	g++ -c TableWrapper.cpp
+	g++ -c TableWrapper.hpp TableWrapper.cpp
 
 SocketException.o:
-	g++ -c SocketException.cpp
+	g++ -c SocketException.hpp SocketException.cpp
+
 SocketWrapper.o:
-	g++ -c SocketWrapper.cpp
+	g++ -c SocketWrapper.hpp SocketWrapper.cpp
 
-server: Table.o TableWrapper.o SocketException.o SocketWrapper.o
-	g++ $(FLAGS) Table.o TableWrapper.o SocketException.o SocketWrapper.o Server.cpp -o $(SERVERNAME)
+ConsoleGraphics.o:
+	g++ -c ConsoleGraphics.hpp ConsoleGraphics.cpp
 
-client: Table.o TableWrapper.o SocketException.o SocketWrapper.o
-	g++ $(FLAGS) Table.o TableWrapper.o SocketException.o SocketWrapper.o Client.cpp -o $(CLIENTNAME)
+server: Table.o TableWrapper.o SocketException.o SocketWrapper.o ConsoleGraphics.o
+	g++ $(FLAGS) Table.o TableWrapper.o SocketException.o SocketWrapper.o ConsoleGraphics.o Server.cpp -o $(SERVERNAME)
+
+client: Table.o TableWrapper.o SocketException.o SocketWrapper.o ConsoleGraphics.o
+	g++ $(FLAGS) Table.o TableWrapper.o SocketException.o SocketWrapper.o ConsoleGraphics.o Client.cpp -o $(CLIENTNAME)
 
 clear:
 	-rm *.o
